@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Recipe</string>
+    <string name="db_name">RECIPE</string>
+    <!-- Detail Activity-->
+    <string name="detail_steps_label">Steps:</string>
+    <string name="detail_ingredients_label">Ingredients:</string>
+
+
+    <!-- Content descriptions-->
+    <string name="recipe_pic_content_desc">Recipe picture</string>
+
+    <!-- Error messages-->
+    <string name="detail_error_message">Recipe data not available</string>
+    <string name="upload_picture_here">Upload Picture Here</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="edit_recipe">Edit Recipe</string>
+    <string name="recipe_picture">Recipe Picture</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Main Text Styling -->
+    <style name="MetaDataText">
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">12sp</item>
+        <item name="fontWeight">400</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!--Card Styles -->
+    <style name="CardItemText" parent="MetaDataText">
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="CardItemText.Headline" parent="TextAppearance.AppCompat.Title">
+        <item name="fontFamily">@font/raleway_medium</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="CardItemText.Desc" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <!--View recipe screen-->
+    <style name="DetailTitle" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:fontFamily">@font/raleway_medium</item>
+    </style>
+
+    <style name="DetailSubHeader" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:fontFamily">@font/raleway_black</item>
+    </style>
+
+<!--    <style name="TextBody2" parent="TextAppearance.AppCompat.Body1">-->
+<!--        <item name="android:textColor">@color/text_black_60</item>-->
+<!--    </style>-->
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recipe_type_array">
+        <item></item>
+        <item>Breakfast</item>
+        <item>Dinner</item>
+        <item>Desert</item>
+        <item>Drinks</item>
+        <item>Lunch</item>
+        <item>Main Course</item>
+    </string-array>
+</resources>
